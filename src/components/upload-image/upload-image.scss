@@ -1,0 +1,41 @@
+.container{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+.upload__input-img{
+    display: none;
+}
+.upload__intro{
+    margin-top: 50px;
+}
+.upload__title{
+    font-weight: 700;
+    color: rgb(155, 151, 151); 
+    cursor: pointer;
+    svg{
+        fill: grey;
+        padding-right:10px;
+        margin-bottom: -7px;
+    }
+}
+.upload__image{
+    display: inline;
+}
+.btn__show-post{
+    display: none;
+}
+.upload__input-comment{
+    border-radius: 7px;
+    padding: 4px 12px;
+    margin-top: 20px;
+}
+.btn__make-post{
+    margin-top: 20px;
+    border: 1px solid rgb(138, 138, 138);
+    border-radius: 10px;
+    background-color: white;
+    color: rgb(88, 88, 88);
+    padding: 3px 8px;
+    cursor: pointer;
+}
